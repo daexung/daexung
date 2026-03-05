@@ -1,11 +1,14 @@
-## DAESEONG JU
+# DAESEONG JU
 
-세종대학교에서 건설환경공학을 전공하며 AI연계마이크로디그리를 이수했습니다. **스마트건설** 분야와 각종 **DX 흐름**을 이끌어 나가는 엔지니어가 되는 것을
-목표로 하고 있습니다. 데이터 분석/엔지니어링 직무에 관심을 가지고 계속해서 공부해나가고 있습니다.
+## 🇰🇷 About Me
+세종대학교에서 **건설환경공학**을 전공하며 **AI 연계 마이크로디그리**를 이수했습니다.  
+건설 산업의 **스마트건설(Smart Construction)** 과 **디지털 전환(DX)** 을 이끄는 엔지니어가 되는 것을 목표로 하고 있습니다.  
+현재 **데이터 분석(Data Analysis)** 과 **데이터 엔지니어링(Data Engineering)** 분야에 관심을 가지고 지속적으로 학습하고 있습니다.
 
-I majored in Civil and Environmental Engineering at Sejong University and completed an AI-related micro-degree.
-My goal is to become an engineer who leads innovation in the fields of Smart Construction and digital transformation (DX).
-I am particularly interested in data analysis and data engineering, and I continue to study and develop my skills in these areas.
+## 🇺🇸 About Me (English)
+I majored in **Civil & Environmental Engineering at Sejong University** and completed an **AI-related Micro-Degree**.  
+My goal is to become an engineer who drives innovation in **Smart Construction** and **Digital Transformation (DX)**.  
+I am particularly interested in **Data Analysis** and **Data Engineering**, and I continue to develop my skills in these areas.
 
 <!--
 **daexung/daexung** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
