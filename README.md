@@ -23,13 +23,13 @@ I am particularly interested in **Data Analysis** and **Data Engineering**, and 
 #### 1. 포트홀 탐지 모델 및 매핑 시스템(Pothole Detection and Mapping System)
 `Ultralytics` `YOLOv8` `PyTorch` `Claude`
 
-Claude Haiku와 Sonnet을 활용한 3단계 Human-in-the-loop 방식으로 데이터 라벨을 정제하고,  
-ICP와 MCP 기반 Conformal Prediction으로 모델의 불확실성을 검증한 후  
-HNM(Hard Negative Mining)을 통해 포트홀 이미지를 분류하는 시스템을 구축.
+- Claude Haiku와 Sonnet을 활용한 3단계 Human-in-the-loop 방식으로 데이터 라벨을 정제하고,  
+- ICP와 MCP 기반 Conformal Prediction으로 모델의 불확실성을 검증(95% coverage)
+- HNM(Hard Negative Mining)을 통해 포트홀 이미지를 분류하는 시스템을 구축.
 
-Hyperband 방식을 참고한 베이지안 최적화 기반 하이퍼파라미터 튜닝을 적용하여 모델 성능을 개선.
+- Hyperband 방식을 참고한 베이지안 최적화 기반 하이퍼파라미터 튜닝을 적용하여 모델 성능을 개선.
 
-로컬 서버 환경에서 OpenStreetMap을 활용하여 탐지된 포트홀을 지도에 시각화하는 매핑 시스템을 구현.
+- 로컬 서버 환경에서 OpenStreetMap을 활용하여 탐지된 포트홀을 지도에 시각화하는 매핑 시스템을 구현.
 
 #### 2. 비래염분 농도 데이터 분석 및 회귀 모델링(Airborne Chloride Analysis and Regression Modeling)
 ```scikit-learn``` ```pandas``` ```numpy```<br>
