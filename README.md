@@ -18,7 +18,12 @@ I am particularly interested in **Data Analysis** and **Data Engineering**, and 
  ![AutoCAD](https://img.shields.io/badge/autocad-%23E51050.svg?style=for-the-badge&logo=autocad&logoColor=white)
 <br>
 
+## 📋Projects
 
+#### 1. 비래염분 농도 데이터 분석 및 회귀 모델링(Airborne Chloride Analysis and Regression Modeling)
+```scikit-learn``` ```pandas``` ```numpy```<br>
+기상 및 환경 데이터를 활용하여 비래염분 농도를 분석하고,
+회귀 모델을 통해 농도 예측 모델을 구축한 데이터 분석 프로젝트.
 <!--
 **daexung/daexung** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
