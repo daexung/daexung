@@ -11,7 +11,8 @@ My goal is to become an engineer who drives innovation in **Smart Construction**
 I am particularly interested in **Data Analysis** and **Data Engineering**, and I continue to develop my skills in these areas.
 
 ## 🛠️Stacks
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
 
 <!--
 **daexung/daexung** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
