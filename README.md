@@ -24,7 +24,7 @@ I am particularly interested in **Data Analysis** and **Data Engineering**, and 
 #### 1. 포트홀 탐지 모델 및 매핑 시스템(Pothole Detection and Mapping System)
 `Ultralytics` `YOLOv8` `PyTorch` `Claude`
 
-- Claude Haiku와 Sonnet을 활용한 3단계 Human-in-the-loop 방식으로 데이터 라벨을 정제하고,  
+- Claude Haiku와 Sonnet을 활용한 3단계 Human-in-the-loop 방식으로 데이터 라벨을 정제하고
 - ICP와 MCP 기반 Conformal Prediction으로 모델의 불확실성을 검증(95% coverage)
 - HNM(Hard Negative Mining)을 통해 포트홀 이미지를 분류하는 시스템을 구축.
 
