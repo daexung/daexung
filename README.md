@@ -31,10 +31,12 @@ I am particularly interested in **Data Analysis** and **Data Engineering**, and 
 
 - 로컬 서버 환경에서 OpenStreetMap을 활용하여 탐지된 포트홀을 지도에 시각화하는 매핑 시스템을 구현.
 
-#### 2. 비래염분 농도 데이터 분석 및 회귀 모델링(Airborne Chloride Analysis and Regression Modeling)
-```scikit-learn``` ```pandas``` ```numpy```<br>
-기상 및 환경 데이터를 활용하여 비래염분 농도를 분석하고,
-회귀 모델을 통해 농도 예측 모델을 구축한 데이터 분석 프로젝트.
+#### 2. 비래염분 농도 데이터 분석 및 회귀 모델링 (Airborne Chloride Analysis and Regression Modeling)
+`scikit-learn` `pandas` `numpy`
+- 기상 및 환경 데이터를 활용한 비래염분 농도 데이터 분석
+- EDA 및 Feature Selection을 통해 주요 영향 변수 도출
+- 회귀 모델을 활용해 비래염분 농도 예측 모델 구축
+- 동해,서해,남해 등 공간적 요인이 염분 농도에 미치는 영향 인사이트 도출
 
 #### 3. 사면 안정성 다중분류 모델링
 ```scikit-learn``` ```pandas``` ```numpy```<br>
