@@ -42,6 +42,7 @@ I am particularly interested in **Data Analysis** and **Data Engineering**, and 
 #### 3. 사면 안정성 다중분류 모델링
 ```scikit-learn``` ```pandas``` ```numpy```<br>
 
+- 사면 데이터 활용 다중분류 모델 개발
 <!--
 **daexung/daexung** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
