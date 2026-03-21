@@ -43,6 +43,7 @@ I am particularly interested in **Data Analysis** and **Data Engineering**, and 
 ```scikit-learn``` ```pandas``` ```numpy```<br>
 
 - 사면 데이터 활용 다중분류 모델 개발
+- 안전 고려 자체 제작 지표 기반 파라미터 튜닝
 <!--
 **daexung/daexung** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
