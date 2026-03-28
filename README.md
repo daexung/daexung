@@ -2,7 +2,8 @@
 
 ## 🇰🇷 About Me
 세종대학교 **건설환경공학** 전공/ **AI 연계 마이크로디그리** 이수 
-SKplanet **dataengineering** (2/26-)
+
+SKplanet **dataengineering** 교육 (2/26-)
 
 
 ## 🛠️Stacks
