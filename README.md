@@ -1,10 +1,13 @@
 # DAESEONG JU
-## 🇰🇷 About Me
-세종대학교 **건설환경공학** 전공 / **AI 연계 마이크로디그리** 이수
-SKplanet **Data Engineering** 교육 수강 중 (2026.02 ~ 2026.08)
+## About Me
 
-- 토목기사
-- ADsP
+건설환경공학 전공을 기반으로 데이터 엔지니어링과 AI 서비스 구현을 학습하고 있습니다.  
+토목·인프라 도메인 문제를 데이터 수집, 모델링, 파이프라인, API, 시각화까지 연결하는 end-to-end 프로젝트에 관심이 있습니다.
+
+- 세종대학교 건설환경공학 전공 / AI 연계 마이크로디그리 이수
+- SKplanet Data Engineering 교육 과정 수강 중
+- 관심 분야: Data Engineering, AI Service, Smart Construction, Infrastructure Data
+- 자격증: 토목기사, ADsP
 
 ## 🛠️ Stacks
 
@@ -14,17 +17,17 @@ SKplanet **Data Engineering** 교육 수강 중 (2026.02 ~ 2026.08)
 
 ## 📋 Projects
 
-#### 1. 포트홀 탐지 모델링
+#### 1. CP 기반 포트홀 탐지 모델 개발 (CP-based Pothole Detection Model)
 `YOLOv8` `PyTorch` `Conformal Prediction` `Claude`
 - Claude Haiku·Sonnet을 활용한 3단계 Human-in-the-loop 방식으로 데이터 라벨 정제
+- YOLOv8-CLS + Conformal Prediction 적용, 단순 이진 분류 대신 4단계 불확실성 기반 분류(N/U_N/U_P/P) 구현
 - ICP·MCP 기반 Conformal Prediction으로 모델 불확실성 검증 (95% coverage)
-- HNM(Hard Negative Mining)으로 포트홀 이미지 분류 시스템 구축
+- Hard Negative Mining 후보를 추출하여 모델이 오분류하거나 불확실하게 판단한 샘플을 재학습 데이터로 활용할 수 있는 구조 설계
 - Hyperband 방식을 참고한 베이지안 최적화 기반 하이퍼파라미터 튜닝 적용
 
-#### 2. 도로안전 알리미 — 포트홀 탐지 end-to-end 파이프라인
+#### 2. 포트홀 탐지 데이터 파이프라인 및 AWS 서비스 배포
 `Kafka` `Airflow` `AWS` `YOLOv8` `Conformal Prediction` `React` `FastAPI`
 - 버스 블랙박스 영상에서 포트홀을 실시간 감지하고 Kafka → S3/RDS → Airflow → 대시보드까지 연결한 end-to-end 파이프라인 구축
-- YOLOv8-CLS + Conformal Prediction 적용, 단순 이진 분류 대신 4단계 불확실성 기반 분류(N/U_N/U_P/P) 구현
 - 서울시 버스 API 미작동으로 Naver 지도 크롤링을 통해 영등포구 13개 노선 GPS 데이터 직접 수집
 - Airflow DAG로 HNM(Hard Negative Mining) 후보 자동 추출 및 일일 리포트 생성
 - 멀티프로세싱 기반 13개 노선 동시 페이크 로그 생성기 구현 → Kafka 연동 파이프라인 테스트
