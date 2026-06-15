@@ -5,6 +5,9 @@
 
 SKplanet **dataengineering** 교육 (2/26-)
 
+- 토목기사
+- ADsP
+
 
 ## 🛠️Stacks
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><br>
