@@ -27,7 +27,7 @@ SKplanet **dataengineering** 교육 (2/26-)
 
 - 로컬 서버 환경에서 OpenStreetMap을 활용하여 탐지된 포트홀을 지도에 시각화하는 매핑 시스템 구현.
 #### 2. 포트홀 모델 실제 구현 및 로그 수집 파이프라인과 AWS기반 실제 서비스 배포 (Pothole Detection and Mapping System)
-https://github.com/daexung/road-defect-pipeline
+https://github.com/daexung/road-defect-pipeline \n
 'Kafka' , 'Airflow', 'AWS'
 
 - 버스 블랙박스 영상에서 포트홀을 실시간 감지하고 Kafka → S3/RDS → Airflow → 대시보드까지 연결한 end-to-end 파이프라인 구축
