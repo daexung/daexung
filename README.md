@@ -31,7 +31,7 @@ https://github.com/daexung/road-defect-pipeline
 
 - 'Kafka' , 'Airflow', 'AWS'
 
-- 버스 블랙박스 영상에서 포트홀을 실시간 감지하고 Kafka → S3/RDS → Airflow → 대시보드까지 연결한 end-to-end 파이프라인 구축
+- 버스 블랙박스 영상에서 포트홀을 실시간 감지하고 Kafka →  Airflow → S3/RDS  → 대시보드까지 연결한 end-to-end 파이프라인 구축
 - YOLOv8-CLS + Conformal Prediction 적용, 단순 이진 분류 대신 4단계 불확실성 기반 분류(N/U_N/U_P/P) 구현
 - 서울시 버스 API 미작동으로 Naver 지도 크롤링을 통해 영등포구 13개 노선 GPS 데이터 직접 수집
 - Airflow DAG로 HNM(Hard Negative Mining) 후보 자동 추출 및 일일 리포트 생성
