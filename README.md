@@ -7,7 +7,7 @@
 - 세종대학교 건설환경공학 전공 / AI 연계 마이크로디그리 이수
 - SKplanet Data Engineering 교육 과정 수강 중
 - 관심 분야: Data Engineering, AI Service, Smart Construction, Infrastructure Data
-- 자격증: 토목기사, ADsP
+- 토목기사, ADsP
 
 ## 🛠️ Stacks
 
