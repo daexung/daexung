@@ -22,7 +22,7 @@
 
 **Backend · Infra**
 
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"> <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"> <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
 
 **Domain**
 
@@ -37,7 +37,7 @@
 `Airflow` `SQS·Lambda` `PostgreSQL` `OpenSearch` `Bedrock` `FastAPI` `React`
 
 > 5인 팀 · 2026.06–08 · SK플래닛 최종 프로젝트 **최우수상** · 담당: ETL 파이프라인 · 품목분류 ML · 백엔드 · 프론트엔드 · CI/CD
-> 레포: [팀 레포 링크 추가] · 서비스: bidfriend.ai.kr (2026.07–08 운영)
+> 레포: [pipeline](https://github.com/final-pjt-supply/bidmate-pipeline) · [backend](https://github.com/final-pjt-supply/bidmate-backend) · [frontend](https://github.com/final-pjt-supply/bidmate-frontend) · 서비스: bidfriend.ai.kr (2026.07–08 운영)
 
 * 공고 **24,872건 · 문서 105,572건(114GB)** 수집·처리, 자격요건 병합 완료율 **98.9%**, 검색 색인 **1,206,455 청크** — 백필 완료 후 **무인 자동 수집 128건/일**
 * Airflow 정기 수집 + **SQS 6큐·DLQ 6 + Lambda** 이벤트 처리 — 실행량 과금 구조로 유휴 시간 비용 제거(scale-to-zero)
@@ -49,7 +49,7 @@
 
 `LangGraph` `FastAPI` `PostgreSQL` `pgvector` `AWS Bedrock` `React` `Docker`
 
-> 4인 팀 프로젝트 · [civilai-construction-risk-agent](https://github.com/daexung/civilai-construction-risk-agent)
+> 팀 프로젝트 · [civilai-construction-risk-agent](https://github.com/daexung/civilai-construction-risk-agent)
 
 * 기상 악화·추가 물량·자재 단가·장비 대기 리스크 기반 **추가비용 자동 산정** 에이전트 — 표준품셈·노임단가 등 실제 기준 문서 사용
 * LangGraph 멀티 노드 구성: router → extractor → [weather · material · labor_cost · equipment] → aggregator → synthesize
@@ -59,6 +59,8 @@
 ### 3. CP 기반 포트홀 탐지 모델
 
 `YOLOv8` `PyTorch` `Conformal Prediction` `Claude`
+
+> 7인 팀
 
 * 대시캠 이미지 **81,236장**(1:20 불균형) — Claude Haiku·Sonnet 2단계 + 육안 검수의 **3단계 Human-in-the-loop 라벨 정제**
 * YOLOv8-CLS + **Conformal Prediction(ICP·MCP)** — 이진 분류 대신 불확실성 기반 4클래스 출력, 불확실한 예측은 판정에서 제외
