@@ -71,7 +71,7 @@
 
 `Kafka` `Airflow` `AWS` `FastAPI` `React`
 
-> 2인 팀 · 10일 · [road-defect-pipeline](https://github.com/daexung/road-defect-pipeline)
+> 2인 팀 · 10일 · [road-defect-pipeline](https://github.com/daexung/pothole-classification-pipeline)
 
 * 버스 블랙박스 추론 → Kafka → RDS·S3 → Airflow → 대시보드까지 **end-to-end 실시간 파이프라인** — 13개 노선 **초당 39건** 처리
 * Consumer 이원화: 포트홀 확정·의심은 RDS 즉시 적재(서비스), 전체 로그는 S3 Parquet 데이터 레이크(재학습·분석)
