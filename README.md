@@ -5,8 +5,9 @@
 문제 해결에 필요한 데이터 기반을 구축해 AI와 서비스로 연결하는 엔지니어입니다.
 데이터 수집 → 모델링 → 파이프라인 → API → 운영까지 경험한 프로젝트들을 기록해놨습니다.
 
-- 세종대학교 건설환경공학 전공 · AI연계건설환경공학 마이크로디그리 이수
+- **(주)비투윈 (AIEM)** · AI / Data Engineer (2026.11.02 ~ )
 - SK플래닛 생성형 AI 활용 데이터 엔지니어 2기 수료 — **최종 프로젝트 최우수상 (BidFriend)**
+- 세종대학교 건설환경공학 전공 · AI연계건설환경공학 마이크로디그리 이수
 - 토목기사 · ADsP
 - 관심 분야: Data Engineering, AI Service, Smart Construction, Infrastructure Data
 
